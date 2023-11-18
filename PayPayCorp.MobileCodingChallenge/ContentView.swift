@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PayPayCorp.MobileCodingChallenge
 //
-//  Created by Dina  on 18/11/2023.
+//  Created by Dina Mansour on 18/11/2023.
 //
 
 import SwiftUI

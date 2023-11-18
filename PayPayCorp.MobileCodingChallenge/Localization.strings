@@ -1,0 +1,14 @@
+/* 
+  Localization.strings
+  Challenge
+
+  Created by Dina Mansour on 11/24/19.
+  Copyright © 2019 Dina Mansour. All rights reserved.
+*/
+
+
+//Messages
+"successTitle" = "Success";
+"errorTitle" = "Error";
+"tryAgain" = "Please try again later";
+"noNetworkConnected" = "Please make sure you are connected to the internet";

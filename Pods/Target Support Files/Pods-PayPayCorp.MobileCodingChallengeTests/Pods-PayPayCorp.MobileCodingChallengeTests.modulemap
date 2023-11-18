@@ -1,0 +1,6 @@
+framework module Pods_PayPayCorp_MobileCodingChallengeTests {
+  umbrella header "Pods-PayPayCorp.MobileCodingChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

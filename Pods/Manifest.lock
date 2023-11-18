@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Cartography (4.0.0)
+  - DeviceKit (4.9.0)
+  - Kingfisher (6.3.1)
+  - ReachabilitySwift (5.0.0)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - SideMenu (6.4.7)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Cartography
+  - DeviceKit (= 4.9.0)
+  - Kingfisher
+  - ReachabilitySwift
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SideMenu (from `https://github.com/carlosgarciapecun/SideMenu.git`, branch `feature/add_xcode_11.4_support`)
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cartography
+    - DeviceKit
+    - Kingfisher
+    - ReachabilitySwift
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftMessages
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SideMenu:
+    :branch: feature/add_xcode_11.4_support
+    :git: https://github.com/carlosgarciapecun/SideMenu.git
+
+CHECKOUT OPTIONS:
+  SideMenu:
+    :commit: 18a6f1d2292dd68c30dea3565b4fbe235505e17d
+    :git: https://github.com/carlosgarciapecun/SideMenu.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
+  DeviceKit: 847709bf70b78fd9ab765bd571fb9f5f815c3fc1
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SideMenu: 928a015669c3afc201e1fe3a87f1b0bc8993a664
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 50827ea85a13e2bb51e80d94b82e6bed2bab958f
+
+COCOAPODS: 1.10.0

@@ -64,7 +64,6 @@
 		ED3A3D712B08A38200397452 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D6B2B08A38200397452 /* SideMenu.storyboard */; };
 		ED3A3D732B08A3AC00397452 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D722B08A3AC00397452 /* Localization.strings */; };
 		ED3A3D752B08A3E400397452 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D742B08A3E400397452 /* Constants.swift */; };
-		ED3A3D772B08A41B00397452 /* PayPayCorp_MobileCodingChallenge.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D762B08A41A00397452 /* PayPayCorp_MobileCodingChallenge.entitlements */; };
 		ED3A3D862B08A46D00397452 /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D7A2B08A46C00397452 /* CurrencyConverterViewModel.swift */; };
 		ED3A3D872B08A46D00397452 /* CurrencyConverterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D7C2B08A46C00397452 /* CurrencyConverterManager.swift */; };
 		ED3A3D882B08A46D00397452 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D7E2B08A46C00397452 /* BaseModel.swift */; };
@@ -79,6 +78,7 @@
 		ED3A3D962B08A4B900397452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D952B08A4B900397452 /* LaunchScreen.storyboard */; };
 		ED3A3E432B08AB1100397452 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E412B08AB1100397452 /* HomeViewController.xib */; };
 		ED3A3E442B08AB1100397452 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3E422B08AB1100397452 /* HomeViewController.swift */; };
+		ED3A3E462B08B3D900397452 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E452B08B3D900397452 /* Info.plist */; };
 		EDE2735E2B089EA500A05B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2735D2B089EA500A05B11 /* ContentView.swift */; };
 		EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2735F2B089EA800A05B11 /* Assets.xcassets */; };
 		EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE273632B089EA800A05B11 /* Preview Assets.xcassets */; };
@@ -168,7 +168,6 @@
 		ED3A3D6B2B08A38200397452 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		ED3A3D722B08A3AC00397452 /* Localization.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
 		ED3A3D742B08A3E400397452 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		ED3A3D762B08A41A00397452 /* PayPayCorp_MobileCodingChallenge.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PayPayCorp_MobileCodingChallenge.entitlements; sourceTree = "<group>"; };
 		ED3A3D7A2B08A46C00397452 /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
 		ED3A3D7C2B08A46C00397452 /* CurrencyConverterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterManager.swift; sourceTree = "<group>"; };
 		ED3A3D7E2B08A46C00397452 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -183,6 +182,7 @@
 		ED3A3D952B08A4B900397452 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3A3E412B08AB1100397452 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		ED3A3E422B08AB1100397452 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ED3A3E452B08B3D900397452 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE273582B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPayCorp.MobileCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE2735D2B089EA500A05B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDE2735F2B089EA800A05B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -513,9 +513,9 @@
 				ED3A3CFD2B08A15300397452 /* AppUtils */,
 				ED3A3D222B08A21200397452 /* Fonts */,
 				ED3A3D722B08A3AC00397452 /* Localization.strings */,
+				ED3A3E452B08B3D900397452 /* Info.plist */,
 				ED3A3D742B08A3E400397452 /* Constants.swift */,
 				EDE2735D2B089EA500A05B11 /* ContentView.swift */,
-				ED3A3D762B08A41A00397452 /* PayPayCorp_MobileCodingChallenge.entitlements */,
 				EDE2735F2B089EA800A05B11 /* Assets.xcassets */,
 				EDE273622B089EA800A05B11 /* Preview Content */,
 			);
@@ -676,6 +676,7 @@
 				ED3A3D402B08A21200397452 /* SFProText-Light.otf in Resources */,
 				ED3A3D4F2B08A21200397452 /* SFProDisplay-Light.otf in Resources */,
 				ED3A3D532B08A21200397452 /* Cairo-Light.ttf in Resources */,
+				ED3A3E462B08B3D900397452 /* Info.plist in Resources */,
 				ED3A3D412B08A21200397452 /* SFProText-Semibold.otf in Resources */,
 				ED3A3D4A2B08A21200397452 /* SFProDisplay-Heavy.otf in Resources */,
 				ED3A3D482B08A21200397452 /* SFProDisplay-Ultralight.otf in Resources */,
@@ -692,7 +693,6 @@
 				ED3A3D562B08A21200397452 /* Monaco.ttf in Resources */,
 				EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */,
 				ED3A3D512B08A21200397452 /* Cairo-SemiBold.ttf in Resources */,
-				ED3A3D772B08A41B00397452 /* PayPayCorp_MobileCodingChallenge.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/DeviceKit-master.dia",
+    "emit-module-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/DeviceKit-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/DeviceKit-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/DeviceKit-master.swiftdeps"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/DeviceKit/Source/Device.generated.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/DeviceKit.build/Objects-normal/x86_64/Device.generated~partial.swiftmodule"
+  }
+}

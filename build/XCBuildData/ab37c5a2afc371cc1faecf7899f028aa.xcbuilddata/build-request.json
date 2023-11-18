@@ -1,0 +1,119 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "0c7a961cfc181a49e7450d4112821ed4e2b192644625c3676165322a883c447d"
+    },
+    {
+      "guid" : "0c7a961cfc181a49e7450d4112821ed4df9b96393f1261e04614b1cf4876b965"
+    },
+    {
+      "guid" : "0c7a961cfc181a49e7450d4112821ed4eaee8830517e9d7867acbecba227b9df"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ba3679b4c4428e6a6d83c5308d3af99b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4235fe4be7d4f22ea4fc6eaccd9199a34e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42d5c0e5177badf776cd2214b4f0362d32"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427add8fbbd12553af2fc6f71a250cc7d9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c7585d142dd44510a378f313046342c0"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420254698a9f33ce1608e96956fa6ad675"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd425f3f64500b5c2228104d98876af03542"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42a09f89f66b716da1ab2ec5e473d4f730"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42071f63f0c021fb5bbe0a66cc478ff649"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420daa2e2cd26ad5ca345c3044f7db418b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424f96f1021f5250ab30d486e660411efe"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4291ffb250f3b44ffb9b452226d52e9fa9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4200d5f1038a74fd722767d668286662d6"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42de882aa1f474c95f65b62079ee39cea0"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4220b2facc6cb1fc58ec10a6c4220317ba"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4210f95f96c9da093b6a2c30db091f31b9"
+    }
+  ],
+  "containerPath" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/PayPayCorp.MobileCodingChallenge.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/dabdelkareem2000/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dabdelkareem2000/Library/Developer/Xcode/DerivedData/PayPayCorp.MobileCodingChallenge-aieqztyrepyefefhiolhzzywsbka/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dabdelkareem2000/Library/Developer/Xcode/DerivedData/PayPayCorp.MobileCodingChallenge-aieqztyrepyefefhiolhzzywsbka/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone16,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/dabdelkareem2000/Library/Developer/Xcode/DerivedData/PayPayCorp.MobileCodingChallenge-aieqztyrepyefefhiolhzzywsbka/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "08A047BC-D6C3-4F43-8B18-F9AD2F43C9E9",
+          "TARGET_DEVICE_MODEL" : "iPhone16,1",
+          "TARGET_DEVICE_OS_VERSION" : "17.0.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

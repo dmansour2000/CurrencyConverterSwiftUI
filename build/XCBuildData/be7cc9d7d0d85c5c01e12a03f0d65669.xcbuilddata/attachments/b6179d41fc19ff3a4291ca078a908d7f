@@ -1,0 +1,3 @@
+#!/bin/sh
+"${PODS_ROOT}/Target Support Files/Pods-PayPayCorp.MobileCodingChallenge-PayPayCorp.MobileCodingChallengeUITests/Pods-PayPayCorp.MobileCodingChallenge-PayPayCorp.MobileCodingChallengeUITests-frameworks.sh"
+

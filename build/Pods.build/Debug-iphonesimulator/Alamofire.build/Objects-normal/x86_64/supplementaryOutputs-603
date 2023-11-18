@@ -1,0 +1,18 @@
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Alamofire/Source/Alamofire.swift":
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.d"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.swiftconstvalues"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.swiftdeps"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.dia"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.o"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Alamofire/Source/AlamofireExtended.swift":
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.swiftdeps"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.dia"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.o"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.d"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.swiftconstvalues"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Alamofire/Source/AFError.swift":
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.dia"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.o"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.swiftconstvalues"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.d"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.swiftdeps"

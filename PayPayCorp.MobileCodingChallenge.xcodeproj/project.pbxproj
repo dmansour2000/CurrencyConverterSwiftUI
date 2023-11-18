@@ -77,6 +77,8 @@
 		ED3A3D942B08A4AA00397452 /* AboutArchitectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D922B08A4AA00397452 /* AboutArchitectureViewController.swift */; };
 		ED3A3E432B08AB1100397452 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E412B08AB1100397452 /* HomeViewController.xib */; };
 		ED3A3E442B08AB1100397452 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3E422B08AB1100397452 /* HomeViewController.swift */; };
+		ED3A3E482B08BDCF00397452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E472B08BDCF00397452 /* LaunchScreen.storyboard */; };
+		ED3A3E4A2B08BE7100397452 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E492B08BE7100397452 /* Info.plist */; };
 		EDE2735E2B089EA500A05B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2735D2B089EA500A05B11 /* ContentView.swift */; };
 		EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2735F2B089EA800A05B11 /* Assets.xcassets */; };
 		EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE273632B089EA800A05B11 /* Preview Assets.xcassets */; };
@@ -179,6 +181,8 @@
 		ED3A3D922B08A4AA00397452 /* AboutArchitectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutArchitectureViewController.swift; sourceTree = "<group>"; };
 		ED3A3E412B08AB1100397452 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		ED3A3E422B08AB1100397452 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ED3A3E472B08BDCF00397452 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED3A3E492B08BE7100397452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE273582B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPayCorp.MobileCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE2735D2B089EA500A05B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDE2735F2B089EA800A05B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -498,6 +502,8 @@
 		EDE2735A2B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				ED3A3E492B08BE7100397452 /* Info.plist */,
+				ED3A3E472B08BDCF00397452 /* LaunchScreen.storyboard */,
 				ED3A3D5E2B08A32E00397452 /* AppDelegate.swift */,
 				ED3A3D572B08A23800397452 /* SupportingClasses */,
 				ED3A3D602B08A36500397452 /* BaseView */,
@@ -659,6 +665,7 @@
 				ED3A3D8C2B08A46D00397452 /* CurrencyTableViewCell.xib in Resources */,
 				ED3A3D932B08A4AA00397452 /* AboutArchitectureViewController.xib in Resources */,
 				ED3A3D4E2B08A21200397452 /* SFProDisplay-Regular.otf in Resources */,
+				ED3A3E482B08BDCF00397452 /* LaunchScreen.storyboard in Resources */,
 				ED3A3D892B08A46D00397452 /* CurrencyConverterViewController.xib in Resources */,
 				ED3A3D3F2B08A21200397452 /* SFProText-Regular.otf in Resources */,
 				ED3A3D732B08A3AC00397452 /* Localization.strings in Resources */,
@@ -683,6 +690,7 @@
 				ED3A3D702B08A38200397452 /* SideMenuTableViewCell.xib in Resources */,
 				ED3A3D492B08A21200397452 /* SFProDisplay-Semibold.otf in Resources */,
 				ED3A3D562B08A21200397452 /* Monaco.ttf in Resources */,
+				ED3A3E4A2B08BE7100397452 /* Info.plist in Resources */,
 				EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */,
 				ED3A3D512B08A21200397452 /* Cairo-SemiBold.ttf in Resources */,
 			);
@@ -917,12 +925,15 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -935,6 +946,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -978,11 +992,14 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -990,6 +1007,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -1004,9 +1024,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PayPayCorp.MobileCodingChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PayPayCorp;
@@ -1029,6 +1051,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = PayPayCorp.MobileCodingChallenge.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1045,9 +1068,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PayPayCorp.MobileCodingChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PayPayCorp;
@@ -1070,6 +1095,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = PayPayCorp.MobileCodingChallenge.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

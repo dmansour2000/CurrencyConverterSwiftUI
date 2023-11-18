@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>App Transport Security Settings</key>
+	<dict>
+		<key>Exception Domains</key>
+		<dict>
+			<key>fixer.io</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>View controller-based status bar appearance</key>
+	<false/>
+	<key>Supported interface orientations (iPad)</key>
+	<array>
+		<string>Portrait (bottom home button)</string>
+		<string>Portrait (top home button)</string>
+		<string>Landscape (left home button)</string>
+		<string>Landscape (right home button)</string>
+	</array>
+	<key>Supported interface orientations</key>
+	<array>
+		<string>Portrait (bottom home button)</string>
+	</array>
+	<key>New item</key>
+	<string></string>
+	<key>Status bar style</key>
+	<string>Light Content</string>
+	<key>Status bar is initially hidden</key>
+	<false/>
+	<key>Required device capabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>Launch screen interface file base name</key>
+	<string>LaunchScreen</string>
+	<key>Application requires iPhone environment</key>
+	<true/>
+	<key>Bundle version</key>
+	<string>1</string>
+	<key>Bundle version string (short)</key>
+	<string>1.0</string>
+	<key>Bundle OS Type code</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>Bundle name</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>InfoDictionary version</key>
+	<string>6.0</string>
+	<key>Bundle identifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>Executable file</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>Default localization</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+</dict>
+</plist>

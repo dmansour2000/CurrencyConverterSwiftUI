@@ -1,0 +1,18 @@
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift":
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Resource.o"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Resource.dia"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Resource.d"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Resource.swiftdeps"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Resource.swiftconstvalues"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift":
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RedirectHandler.d"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RedirectHandler.swiftdeps"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RedirectHandler.swiftconstvalues"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RedirectHandler.o"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RedirectHandler.dia"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Networking/RequestModifier.swift":
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RequestModifier.swiftdeps"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RequestModifier.swiftconstvalues"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RequestModifier.dia"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RequestModifier.d"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RequestModifier.o"

@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Debug-iphonesimulator/RxAlamofire/RxAlamofire.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "RxAlamofire-Swift.h",
+      'external-contents': "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/unextended-interface-header.h",
+    }]
+    }]
+}

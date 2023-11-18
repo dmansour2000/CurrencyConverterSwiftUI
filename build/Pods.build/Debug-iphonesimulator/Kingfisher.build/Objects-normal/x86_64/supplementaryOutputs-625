@@ -1,0 +1,18 @@
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift":
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RetryStrategy.o"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RetryStrategy.d"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RetryStrategy.swiftconstvalues"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RetryStrategy.dia"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/RetryStrategy.swiftdeps"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Utility/Runtime.swift":
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Runtime.d"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Runtime.swiftdeps"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Runtime.swiftconstvalues"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Runtime.dia"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Runtime.o"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Utility/Result.swift":
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Result.d"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Result.swiftconstvalues"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Result.dia"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Result.swiftdeps"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/Result.o"

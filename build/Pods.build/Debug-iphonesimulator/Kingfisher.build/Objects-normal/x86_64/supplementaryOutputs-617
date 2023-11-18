@@ -1,0 +1,24 @@
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift":
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProcessor.swiftconstvalues"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProcessor.o"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProcessor.swiftdeps"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProcessor.d"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProcessor.dia"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift":
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloader.swiftdeps"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloader.d"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloader.swiftconstvalues"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloader.dia"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloader.o"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift":
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProvider.d"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProvider.swiftconstvalues"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProvider.swiftdeps"
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProvider.o"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDataProvider.dia"
+"/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift":
+  object: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloaderDelegate.o"
+  const-values: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloaderDelegate.swiftconstvalues"
+  diagnostics: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloaderDelegate.dia"
+  swift-dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloaderDelegate.swiftdeps"
+  dependencies: "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/x86_64/ImageDownloaderDelegate.d"

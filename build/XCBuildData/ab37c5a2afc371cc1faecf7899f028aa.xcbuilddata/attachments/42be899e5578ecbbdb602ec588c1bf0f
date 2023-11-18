@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp.MobileCodingChallengeTests-master.dia",
+    "emit-module-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp.MobileCodingChallengeTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp.MobileCodingChallengeTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp.MobileCodingChallengeTests-master.swiftdeps"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/PayPayCorp.MobileCodingChallengeTests/PayPayCorp_MobileCodingChallengeTests.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.dia",
+    "index-unit-output-path" : "/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/PayPayCorp.MobileCodingChallenge.build/Debug-iphonesimulator/PayPayCorp.MobileCodingChallengeTests.build/Objects-normal/x86_64/PayPayCorp_MobileCodingChallengeTests~partial.swiftmodule"
+  }
+}

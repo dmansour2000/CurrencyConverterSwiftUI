@@ -1,0 +1,148 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenu-master.dia",
+    "emit-module-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenu-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenu-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenu-master.swiftdeps"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/Deprecations.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Deprecations~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/Extensions.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Extensions~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/Initializable.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Initializable~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/Print.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Print~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/Protected.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/Protected~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuAnimationController~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuInteractionController~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuManager.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuManager~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuNavigationController~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationController~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPresentationStyle~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuPushCoordinator~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/SideMenuTransitionController~partial.swiftmodule"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/SideMenu.build/Objects-normal/x86_64/UITableViewVibrantCell~partial.swiftmodule"
+  }
+}

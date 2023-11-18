@@ -1,0 +1,47 @@
+Target dependency graph (15 targets)
+Target 'PayPayCorp.MobileCodingChallenge' in project 'PayPayCorp.MobileCodingChallenge'
+➜ Implicit dependency on target 'Pods-PayPayCorp.MobileCodingChallenge' in project 'Pods' via file 'Pods_PayPayCorp_MobileCodingChallenge.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'Alamofire' in project 'Pods' via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'Cartography' in project 'Pods' via options '-framework Cartography' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'DeviceKit' in project 'Pods' via options '-framework DeviceKit' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'Kingfisher' in project 'Pods' via options '-framework Kingfisher' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'ReachabilitySwift' in project 'Pods' via options '-framework Reachability' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'RxAlamofire' in project 'Pods' via options '-framework RxAlamofire' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'RxCocoa' in project 'Pods' via options '-framework RxCocoa' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'RxRelay' in project 'Pods' via options '-framework RxRelay' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'RxSwift' in project 'Pods' via options '-framework RxSwift' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SideMenu' in project 'Pods' via options '-framework SideMenu' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SwiftMessages' in project 'Pods' via options '-framework SwiftMessages' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SwiftyJSON' in project 'Pods' via options '-framework SwiftyJSON' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-PayPayCorp.MobileCodingChallenge' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'Cartography' in project 'Pods'
+➜ Explicit dependency on target 'DeviceKit' in project 'Pods'
+➜ Explicit dependency on target 'Kingfisher' in project 'Pods'
+➜ Explicit dependency on target 'ReachabilitySwift' in project 'Pods'
+➜ Explicit dependency on target 'RxAlamofire' in project 'Pods'
+➜ Explicit dependency on target 'RxCocoa' in project 'Pods'
+➜ Explicit dependency on target 'RxRelay' in project 'Pods'
+➜ Explicit dependency on target 'RxSwift' in project 'Pods'
+➜ Explicit dependency on target 'SideMenu' in project 'Pods'
+➜ Explicit dependency on target 'SwiftMessages' in project 'Pods'
+➜ Explicit dependency on target 'SwiftyJSON' in project 'Pods'
+Target 'SwiftyJSON' in project 'Pods' (no dependencies)
+Target 'SwiftMessages' in project 'Pods'
+➜ Explicit dependency on target 'SwiftMessages-SwiftMessages' in project 'Pods'
+Target 'SwiftMessages-SwiftMessages' in project 'Pods' (no dependencies)
+Target 'SideMenu' in project 'Pods' (no dependencies)
+Target 'RxCocoa' in project 'Pods'
+➜ Explicit dependency on target 'RxRelay' in project 'Pods'
+➜ Explicit dependency on target 'RxSwift' in project 'Pods'
+Target 'RxRelay' in project 'Pods'
+➜ Explicit dependency on target 'RxSwift' in project 'Pods'
+Target 'RxAlamofire' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'RxSwift' in project 'Pods'
+Target 'RxSwift' in project 'Pods' (no dependencies)
+Target 'ReachabilitySwift' in project 'Pods' (no dependencies)
+Target 'Kingfisher' in project 'Pods' (no dependencies)
+Target 'DeviceKit' in project 'Pods' (no dependencies)
+Target 'Cartography' in project 'Pods' (no dependencies)
+Target 'Alamofire' in project 'Pods' (no dependencies)

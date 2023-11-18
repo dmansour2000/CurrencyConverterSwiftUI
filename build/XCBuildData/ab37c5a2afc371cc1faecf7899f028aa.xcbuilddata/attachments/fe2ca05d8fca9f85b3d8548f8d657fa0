@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire-master.dia",
+    "emit-module-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire-master.swiftdeps"
+  },
+  "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/Pods/RxAlamofire/Sources/RxAlamofire/RxAlamofire.swift" : {
+    "const-values" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.swiftconstvalues",
+    "dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.d",
+    "diagnostics" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.o",
+    "llvm-bc" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.bc",
+    "object" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.o",
+    "swift-dependencies" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire.swiftdeps",
+    "swiftmodule" : "/Users/dabdelkareem2000/Desktop/MobileCodingChallenge/PayPayCorp.MobileCodingChallenge/build/Pods.build/Debug-iphonesimulator/RxAlamofire.build/Objects-normal/x86_64/RxAlamofire~partial.swiftmodule"
+  }
+}

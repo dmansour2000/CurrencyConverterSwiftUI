@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_PayPayCorp_MobileCodingChallengeTestsVersionString[];
+ extern const double Pods_PayPayCorp_MobileCodingChallengeTestsVersionNumber;
+
+ const unsigned char Pods_PayPayCorp_MobileCodingChallengeTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_PayPayCorp_MobileCodingChallengeTests  PROJECT:Pods-1" "\n";
+ const double Pods_PayPayCorp_MobileCodingChallengeTestsVersionNumber __attribute__ ((used)) = (double)1.;

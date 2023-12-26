@@ -51,17 +51,18 @@ class CurrencyConverterManager {
                 if var model = $0 as? JSONDictionary{
                     
                     
-                    let success = model["success"] as! Bool
-                    let timestamp = model["timestamp"] as! NSNumber
+                    
+                    let disclaimer = model["disclaimer"] as! String
+                    let license = model["license"] as! String
                     let base = model["base"] as! String
-                    let date = model["date"] as! String
+                    let timestamp = model["timestamp"] as! NSNumber
                     let rates = model["rates"] as! NSDictionary
                    
-                      let model = BaseModel.init(success: success, timestamp: timestamp, base: base, date: date, rates: rates)
+                    let model = BaseModel.init(disclaimer: disclaimer, license: license, timestamp: timestamp, base: base, rates: rates)
                    
                     return model
                 }else{
-                    let model = BaseModel.init(success: false, timestamp: 0, base: "", date: "", rates: [:])
+                    let model = BaseModel.init(disclaimer: "", license: "", timestamp: NSNumber(), base: "", rates: [:])
                     
                     return model
                 }

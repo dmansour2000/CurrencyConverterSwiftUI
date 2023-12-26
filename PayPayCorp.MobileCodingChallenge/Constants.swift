@@ -11,7 +11,7 @@ import UIKit
 public class Constants: NSObject {
     
     
-    static let API_BASE_URL = "http://data.fixer.io/api/latest?access_key=8fea0c4e86dc25aaf96efa2ce39935d0"
+    static let API_BASE_URL = "https://openexchangerates.org/api/latest.json?app_id=d0e8532df4c748b4bd99e7b6793de6db"
   
 
     

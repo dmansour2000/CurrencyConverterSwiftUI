@@ -10,23 +10,7 @@
 		168472382A358A6C35EAEA97 /* Pods_PayPayCorp_MobileCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29871C931EB9A820E07B971 /* Pods_PayPayCorp_MobileCodingChallengeTests.framework */; };
 		843B9012D50DD5E4B8CE8657 /* Pods_PayPayCorp_MobileCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B4769043665D51AC099344 /* Pods_PayPayCorp_MobileCodingChallenge.framework */; };
 		9C4503563C7B85CFACFF2431 /* Pods_PayPayCorp_MobileCodingChallenge_PayPayCorp_MobileCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200074E3A5DD9A2CD3D5C0E2 /* Pods_PayPayCorp_MobileCodingChallenge_PayPayCorp_MobileCodingChallengeUITests.framework */; };
-		ED3A3D052B08A1C100397452 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3CFE2B08A1C000397452 /* Observable+Ext.swift */; };
-		ED3A3D062B08A1C100397452 /* AppVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3CFF2B08A1C000397452 /* AppVersionCheck.swift */; };
-		ED3A3D072B08A1C100397452 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D002B08A1C000397452 /* Reusable.swift */; };
-		ED3A3D082B08A1C100397452 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D012B08A1C000397452 /* AppExtensions.swift */; };
-		ED3A3D092B08A1C100397452 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D022B08A1C100397452 /* UIView+Borders.swift */; };
-		ED3A3D0A2B08A1C100397452 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D032B08A1C100397452 /* ErrorTracker.swift */; };
-		ED3A3D0B2B08A1C100397452 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D042B08A1C100397452 /* UIHelper.swift */; };
-		ED3A3D182B08A1E000397452 /* STBouncyPreloaderLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D0E2B08A1E000397452 /* STBouncyPreloaderLoading.swift */; };
-		ED3A3D192B08A1E000397452 /* STArchLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D0F2B08A1E000397452 /* STArchLoading.swift */; };
-		ED3A3D1A2B08A1E000397452 /* STWalkLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D102B08A1E000397452 /* STWalkLoading.swift */; };
-		ED3A3D1B2B08A1E000397452 /* STTriangleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D112B08A1E000397452 /* STTriangleLoading.swift */; };
-		ED3A3D1C2B08A1E000397452 /* STGlassesLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D122B08A1E000397452 /* STGlassesLoading.swift */; };
-		ED3A3D1D2B08A1E000397452 /* STSubmitLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D132B08A1E000397452 /* STSubmitLoading.swift */; };
-		ED3A3D1E2B08A1E000397452 /* STPacManLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D142B08A1E000397452 /* STPacManLoading.swift */; };
-		ED3A3D1F2B08A1E000397452 /* STZhiHuLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D152B08A1E000397452 /* STZhiHuLoading.swift */; };
-		ED3A3D202B08A1E000397452 /* STLoadingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D162B08A1E000397452 /* STLoadingGroup.swift */; };
-		ED3A3D212B08A1E000397452 /* STLoadingable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D172B08A1E000397452 /* STLoadingable.swift */; };
+		ED0A741B2B0A81A700EE9338 /* PayPayCorp.MobileCodingChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A741A2B0A81A700EE9338 /* PayPayCorp.MobileCodingChallenge.swift */; };
 		ED3A3D3F2B08A21200397452 /* SFProText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D242B08A21200397452 /* SFProText-Regular.otf */; };
 		ED3A3D402B08A21200397452 /* SFProText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D252B08A21200397452 /* SFProText-Light.otf */; };
 		ED3A3D412B08A21200397452 /* SFProText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D262B08A21200397452 /* SFProText-Semibold.otf */; };
@@ -54,32 +38,29 @@
 		ED3A3D5B2B08A23900397452 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D582B08A23900397452 /* Utilities.swift */; };
 		ED3A3D5C2B08A23900397452 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D592B08A23900397452 /* NetworkHelper.swift */; };
 		ED3A3D5D2B08A23900397452 /* AccessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D5A2B08A23900397452 /* AccessLayer.swift */; };
-		ED3A3D5F2B08A32F00397452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D5E2B08A32E00397452 /* AppDelegate.swift */; };
-		ED3A3D632B08A36500397452 /* AppBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D622B08A36500397452 /* AppBaseViewController.swift */; };
-		ED3A3D6C2B08A38200397452 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D662B08A38200397452 /* SideMenuTableViewCell.swift */; };
-		ED3A3D6D2B08A38200397452 /* HeaderSideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D672B08A38200397452 /* HeaderSideMenuTableViewCell.xib */; };
-		ED3A3D6E2B08A38200397452 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D682B08A38200397452 /* SideMenuViewController.swift */; };
-		ED3A3D6F2B08A38200397452 /* HeaderSideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D692B08A38200397452 /* HeaderSideMenuTableViewCell.swift */; };
-		ED3A3D702B08A38200397452 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D6A2B08A38200397452 /* SideMenuTableViewCell.xib */; };
-		ED3A3D712B08A38200397452 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D6B2B08A38200397452 /* SideMenu.storyboard */; };
 		ED3A3D732B08A3AC00397452 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D722B08A3AC00397452 /* Localization.strings */; };
 		ED3A3D752B08A3E400397452 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D742B08A3E400397452 /* Constants.swift */; };
 		ED3A3D862B08A46D00397452 /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D7A2B08A46C00397452 /* CurrencyConverterViewModel.swift */; };
 		ED3A3D872B08A46D00397452 /* CurrencyConverterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D7C2B08A46C00397452 /* CurrencyConverterManager.swift */; };
 		ED3A3D882B08A46D00397452 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D7E2B08A46C00397452 /* BaseModel.swift */; };
-		ED3A3D892B08A46D00397452 /* CurrencyConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D802B08A46C00397452 /* CurrencyConverterViewController.xib */; };
-		ED3A3D8A2B08A46D00397452 /* SecondCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D812B08A46C00397452 /* SecondCurrencyViewController.swift */; };
-		ED3A3D8B2B08A46D00397452 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D822B08A46C00397452 /* CurrencyTableViewCell.swift */; };
-		ED3A3D8C2B08A46D00397452 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D832B08A46C00397452 /* CurrencyTableViewCell.xib */; };
-		ED3A3D8D2B08A46D00397452 /* SecondCurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D842B08A46C00397452 /* SecondCurrencyViewController.xib */; };
-		ED3A3D8E2B08A46D00397452 /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D852B08A46C00397452 /* CurrencyConverterViewController.swift */; };
-		ED3A3D932B08A4AA00397452 /* AboutArchitectureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3D912B08A4AA00397452 /* AboutArchitectureViewController.xib */; };
-		ED3A3D942B08A4AA00397452 /* AboutArchitectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3D922B08A4AA00397452 /* AboutArchitectureViewController.swift */; };
-		ED3A3E432B08AB1100397452 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E412B08AB1100397452 /* HomeViewController.xib */; };
-		ED3A3E442B08AB1100397452 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A3E422B08AB1100397452 /* HomeViewController.swift */; };
 		ED3A3E482B08BDCF00397452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E472B08BDCF00397452 /* LaunchScreen.storyboard */; };
-		ED3A3E4A2B08BE7100397452 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A3E492B08BE7100397452 /* Info.plist */; };
-		EDE2735E2B089EA500A05B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2735D2B089EA500A05B11 /* ContentView.swift */; };
+		ED89621A2B0B7B18003938DE /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962192B0B7B18003938DE /* CurrencyView.swift */; };
+		ED89622F2B0B83F9003938DE /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89621C2B0B83F9003938DE /* Reusable.swift */; };
+		ED8962302B0B83F9003938DE /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89621D2B0B83F9003938DE /* ErrorTracker.swift */; };
+		ED8962312B0B83F9003938DE /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89621E2B0B83F9003938DE /* Observable+Ext.swift */; };
+		ED8962322B0B83F9003938DE /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89621F2B0B83F9003938DE /* UIView+Borders.swift */; };
+		ED8962332B0B83F9003938DE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962202B0B83F9003938DE /* UIHelper.swift */; };
+		ED8962342B0B83F9003938DE /* STBouncyPreloaderLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962232B0B83F9003938DE /* STBouncyPreloaderLoading.swift */; };
+		ED8962352B0B83F9003938DE /* STArchLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962242B0B83F9003938DE /* STArchLoading.swift */; };
+		ED8962362B0B83F9003938DE /* STWalkLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962252B0B83F9003938DE /* STWalkLoading.swift */; };
+		ED8962372B0B83F9003938DE /* STTriangleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962262B0B83F9003938DE /* STTriangleLoading.swift */; };
+		ED8962382B0B83F9003938DE /* STGlassesLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962272B0B83F9003938DE /* STGlassesLoading.swift */; };
+		ED8962392B0B83F9003938DE /* STSubmitLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962282B0B83F9003938DE /* STSubmitLoading.swift */; };
+		ED89623A2B0B83F9003938DE /* STPacManLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8962292B0B83F9003938DE /* STPacManLoading.swift */; };
+		ED89623B2B0B83F9003938DE /* STZhiHuLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622A2B0B83F9003938DE /* STZhiHuLoading.swift */; };
+		ED89623C2B0B83F9003938DE /* STLoadingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622B2B0B83F9003938DE /* STLoadingGroup.swift */; };
+		ED89623D2B0B83F9003938DE /* STLoadingable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622C2B0B83F9003938DE /* STLoadingable.swift */; };
+		ED89623E2B0B83F9003938DE /* AppVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */; };
 		EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2735F2B089EA800A05B11 /* Assets.xcassets */; };
 		EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE273632B089EA800A05B11 /* Preview Assets.xcassets */; };
 		EDE2736E2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2736D2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift */; };
@@ -114,23 +95,7 @@
 		A4F191CDA5EA1CB45729519D /* Pods-PayPayCorp.MobileCodingChallenge-PayPayCorp.MobileCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPayCorp.MobileCodingChallenge-PayPayCorp.MobileCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-PayPayCorp.MobileCodingChallenge-PayPayCorp.MobileCodingChallengeUITests/Pods-PayPayCorp.MobileCodingChallenge-PayPayCorp.MobileCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D29871C931EB9A820E07B971 /* Pods_PayPayCorp_MobileCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPayCorp_MobileCodingChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E327361AEFD51D5B01C993 /* Pods-PayPayCorp.MobileCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPayCorp.MobileCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-PayPayCorp.MobileCodingChallenge/Pods-PayPayCorp.MobileCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		ED3A3CFE2B08A1C000397452 /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
-		ED3A3CFF2B08A1C000397452 /* AppVersionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionCheck.swift; sourceTree = "<group>"; };
-		ED3A3D002B08A1C000397452 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-		ED3A3D012B08A1C000397452 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
-		ED3A3D022B08A1C100397452 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
-		ED3A3D032B08A1C100397452 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
-		ED3A3D042B08A1C100397452 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
-		ED3A3D0E2B08A1E000397452 /* STBouncyPreloaderLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STBouncyPreloaderLoading.swift; sourceTree = "<group>"; };
-		ED3A3D0F2B08A1E000397452 /* STArchLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STArchLoading.swift; sourceTree = "<group>"; };
-		ED3A3D102B08A1E000397452 /* STWalkLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STWalkLoading.swift; sourceTree = "<group>"; };
-		ED3A3D112B08A1E000397452 /* STTriangleLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTriangleLoading.swift; sourceTree = "<group>"; };
-		ED3A3D122B08A1E000397452 /* STGlassesLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STGlassesLoading.swift; sourceTree = "<group>"; };
-		ED3A3D132B08A1E000397452 /* STSubmitLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSubmitLoading.swift; sourceTree = "<group>"; };
-		ED3A3D142B08A1E000397452 /* STPacManLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STPacManLoading.swift; sourceTree = "<group>"; };
-		ED3A3D152B08A1E000397452 /* STZhiHuLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STZhiHuLoading.swift; sourceTree = "<group>"; };
-		ED3A3D162B08A1E000397452 /* STLoadingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingGroup.swift; sourceTree = "<group>"; };
-		ED3A3D172B08A1E000397452 /* STLoadingable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingable.swift; sourceTree = "<group>"; };
+		ED0A741A2B0A81A700EE9338 /* PayPayCorp.MobileCodingChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPayCorp.MobileCodingChallenge.swift; sourceTree = "<group>"; };
 		ED3A3D242B08A21200397452 /* SFProText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.otf"; sourceTree = "<group>"; };
 		ED3A3D252B08A21200397452 /* SFProText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Light.otf"; sourceTree = "<group>"; };
 		ED3A3D262B08A21200397452 /* SFProText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.otf"; sourceTree = "<group>"; };
@@ -158,33 +123,30 @@
 		ED3A3D582B08A23900397452 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		ED3A3D592B08A23900397452 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		ED3A3D5A2B08A23900397452 /* AccessLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessLayer.swift; sourceTree = "<group>"; };
-		ED3A3D5E2B08A32E00397452 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED3A3D622B08A36500397452 /* AppBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBaseViewController.swift; sourceTree = "<group>"; };
-		ED3A3D662B08A38200397452 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
-		ED3A3D672B08A38200397452 /* HeaderSideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderSideMenuTableViewCell.xib; sourceTree = "<group>"; };
-		ED3A3D682B08A38200397452 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
-		ED3A3D692B08A38200397452 /* HeaderSideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderSideMenuTableViewCell.swift; sourceTree = "<group>"; };
-		ED3A3D6A2B08A38200397452 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
-		ED3A3D6B2B08A38200397452 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		ED3A3D722B08A3AC00397452 /* Localization.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
 		ED3A3D742B08A3E400397452 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ED3A3D7A2B08A46C00397452 /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
 		ED3A3D7C2B08A46C00397452 /* CurrencyConverterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterManager.swift; sourceTree = "<group>"; };
 		ED3A3D7E2B08A46C00397452 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
-		ED3A3D802B08A46C00397452 /* CurrencyConverterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyConverterViewController.xib; sourceTree = "<group>"; };
-		ED3A3D812B08A46C00397452 /* SecondCurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCurrencyViewController.swift; sourceTree = "<group>"; };
-		ED3A3D822B08A46C00397452 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
-		ED3A3D832B08A46C00397452 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
-		ED3A3D842B08A46C00397452 /* SecondCurrencyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCurrencyViewController.xib; sourceTree = "<group>"; };
-		ED3A3D852B08A46C00397452 /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
-		ED3A3D912B08A4AA00397452 /* AboutArchitectureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutArchitectureViewController.xib; sourceTree = "<group>"; };
-		ED3A3D922B08A4AA00397452 /* AboutArchitectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutArchitectureViewController.swift; sourceTree = "<group>"; };
-		ED3A3E412B08AB1100397452 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		ED3A3E422B08AB1100397452 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ED3A3E472B08BDCF00397452 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ED3A3E492B08BE7100397452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8962192B0B7B18003938DE /* CurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		ED89621C2B0B83F9003938DE /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		ED89621D2B0B83F9003938DE /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		ED89621E2B0B83F9003938DE /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		ED89621F2B0B83F9003938DE /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
+		ED8962202B0B83F9003938DE /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		ED8962232B0B83F9003938DE /* STBouncyPreloaderLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STBouncyPreloaderLoading.swift; sourceTree = "<group>"; };
+		ED8962242B0B83F9003938DE /* STArchLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STArchLoading.swift; sourceTree = "<group>"; };
+		ED8962252B0B83F9003938DE /* STWalkLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STWalkLoading.swift; sourceTree = "<group>"; };
+		ED8962262B0B83F9003938DE /* STTriangleLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTriangleLoading.swift; sourceTree = "<group>"; };
+		ED8962272B0B83F9003938DE /* STGlassesLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STGlassesLoading.swift; sourceTree = "<group>"; };
+		ED8962282B0B83F9003938DE /* STSubmitLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSubmitLoading.swift; sourceTree = "<group>"; };
+		ED8962292B0B83F9003938DE /* STPacManLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STPacManLoading.swift; sourceTree = "<group>"; };
+		ED89622A2B0B83F9003938DE /* STZhiHuLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STZhiHuLoading.swift; sourceTree = "<group>"; };
+		ED89622B2B0B83F9003938DE /* STLoadingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingGroup.swift; sourceTree = "<group>"; };
+		ED89622C2B0B83F9003938DE /* STLoadingable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingable.swift; sourceTree = "<group>"; };
+		ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionCheck.swift; sourceTree = "<group>"; };
 		EDE273582B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPayCorp.MobileCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE2735D2B089EA500A05B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDE2735F2B089EA800A05B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE273632B089EA800A05B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDE273692B089EA800A05B11 /* PayPayCorp.MobileCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPayCorp.MobileCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,46 +205,6 @@
 				D29871C931EB9A820E07B971 /* Pods_PayPayCorp_MobileCodingChallengeTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ED3A3CFD2B08A15300397452 /* AppUtils */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D0C2B08A1E000397452 /* LoadingBar */,
-				ED3A3D012B08A1C000397452 /* AppExtensions.swift */,
-				ED3A3CFF2B08A1C000397452 /* AppVersionCheck.swift */,
-				ED3A3D032B08A1C100397452 /* ErrorTracker.swift */,
-				ED3A3CFE2B08A1C000397452 /* Observable+Ext.swift */,
-				ED3A3D002B08A1C000397452 /* Reusable.swift */,
-				ED3A3D042B08A1C100397452 /* UIHelper.swift */,
-				ED3A3D022B08A1C100397452 /* UIView+Borders.swift */,
-			);
-			path = AppUtils;
-			sourceTree = "<group>";
-		};
-		ED3A3D0C2B08A1E000397452 /* LoadingBar */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D0D2B08A1E000397452 /* Loading */,
-				ED3A3D162B08A1E000397452 /* STLoadingGroup.swift */,
-				ED3A3D172B08A1E000397452 /* STLoadingable.swift */,
-			);
-			path = LoadingBar;
-			sourceTree = "<group>";
-		};
-		ED3A3D0D2B08A1E000397452 /* Loading */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D0E2B08A1E000397452 /* STBouncyPreloaderLoading.swift */,
-				ED3A3D0F2B08A1E000397452 /* STArchLoading.swift */,
-				ED3A3D102B08A1E000397452 /* STWalkLoading.swift */,
-				ED3A3D112B08A1E000397452 /* STTriangleLoading.swift */,
-				ED3A3D122B08A1E000397452 /* STGlassesLoading.swift */,
-				ED3A3D132B08A1E000397452 /* STSubmitLoading.swift */,
-				ED3A3D142B08A1E000397452 /* STPacManLoading.swift */,
-				ED3A3D152B08A1E000397452 /* STZhiHuLoading.swift */,
-			);
-			path = Loading;
 			sourceTree = "<group>";
 		};
 		ED3A3D222B08A21200397452 /* Fonts */ = {
@@ -358,50 +280,13 @@
 			path = SupportingClasses;
 			sourceTree = "<group>";
 		};
-		ED3A3D602B08A36500397452 /* BaseView */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D612B08A36500397452 /* Views */,
-			);
-			path = BaseView;
-			sourceTree = "<group>";
-		};
-		ED3A3D612B08A36500397452 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D622B08A36500397452 /* AppBaseViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		ED3A3D642B08A38200397452 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D652B08A38200397452 /* Views */,
-			);
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
-		ED3A3D652B08A38200397452 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3D672B08A38200397452 /* HeaderSideMenuTableViewCell.xib */,
-				ED3A3D692B08A38200397452 /* HeaderSideMenuTableViewCell.swift */,
-				ED3A3D682B08A38200397452 /* SideMenuViewController.swift */,
-				ED3A3D6A2B08A38200397452 /* SideMenuTableViewCell.xib */,
-				ED3A3D662B08A38200397452 /* SideMenuTableViewCell.swift */,
-				ED3A3D6B2B08A38200397452 /* SideMenu.storyboard */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		ED3A3D782B08A46C00397452 /* Currency Converter */ = {
 			isa = PBXGroup;
 			children = (
+				ED8962192B0B7B18003938DE /* CurrencyView.swift */,
 				ED3A3D792B08A46C00397452 /* ViewModel */,
 				ED3A3D7B2B08A46C00397452 /* BackendManager */,
 				ED3A3D7D2B08A46C00397452 /* Model */,
-				ED3A3D7F2B08A46C00397452 /* Views */,
 			);
 			path = "Currency Converter";
 			sourceTree = "<group>";
@@ -430,51 +315,43 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		ED3A3D7F2B08A46C00397452 /* Views */ = {
+		ED89621B2B0B83F9003938DE /* AppUtils */ = {
 			isa = PBXGroup;
 			children = (
-				ED3A3D812B08A46C00397452 /* SecondCurrencyViewController.swift */,
-				ED3A3D842B08A46C00397452 /* SecondCurrencyViewController.xib */,
-				ED3A3D822B08A46C00397452 /* CurrencyTableViewCell.swift */,
-				ED3A3D832B08A46C00397452 /* CurrencyTableViewCell.xib */,
-				ED3A3D852B08A46C00397452 /* CurrencyConverterViewController.swift */,
-				ED3A3D802B08A46C00397452 /* CurrencyConverterViewController.xib */,
+				ED8962212B0B83F9003938DE /* LoadingBar */,
+				ED89621C2B0B83F9003938DE /* Reusable.swift */,
+				ED89621D2B0B83F9003938DE /* ErrorTracker.swift */,
+				ED89621E2B0B83F9003938DE /* Observable+Ext.swift */,
+				ED89621F2B0B83F9003938DE /* UIView+Borders.swift */,
+				ED8962202B0B83F9003938DE /* UIHelper.swift */,
+				ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */,
 			);
-			path = Views;
+			path = AppUtils;
 			sourceTree = "<group>";
 		};
-		ED3A3D8F2B08A4AA00397452 /* About Architecture */ = {
+		ED8962212B0B83F9003938DE /* LoadingBar */ = {
 			isa = PBXGroup;
 			children = (
-				ED3A3D902B08A4AA00397452 /* Views */,
+				ED8962222B0B83F9003938DE /* Loading */,
+				ED89622B2B0B83F9003938DE /* STLoadingGroup.swift */,
+				ED89622C2B0B83F9003938DE /* STLoadingable.swift */,
 			);
-			path = "About Architecture";
+			path = LoadingBar;
 			sourceTree = "<group>";
 		};
-		ED3A3D902B08A4AA00397452 /* Views */ = {
+		ED8962222B0B83F9003938DE /* Loading */ = {
 			isa = PBXGroup;
 			children = (
-				ED3A3D912B08A4AA00397452 /* AboutArchitectureViewController.xib */,
-				ED3A3D922B08A4AA00397452 /* AboutArchitectureViewController.swift */,
+				ED8962232B0B83F9003938DE /* STBouncyPreloaderLoading.swift */,
+				ED8962242B0B83F9003938DE /* STArchLoading.swift */,
+				ED8962252B0B83F9003938DE /* STWalkLoading.swift */,
+				ED8962262B0B83F9003938DE /* STTriangleLoading.swift */,
+				ED8962272B0B83F9003938DE /* STGlassesLoading.swift */,
+				ED8962282B0B83F9003938DE /* STSubmitLoading.swift */,
+				ED8962292B0B83F9003938DE /* STPacManLoading.swift */,
+				ED89622A2B0B83F9003938DE /* STZhiHuLoading.swift */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		ED3A3E3F2B08AB1100397452 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3E402B08AB1100397452 /* Views */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		ED3A3E402B08AB1100397452 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ED3A3E412B08AB1100397452 /* HomeViewController.xib */,
-				ED3A3E422B08AB1100397452 /* HomeViewController.swift */,
-			);
-			path = Views;
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		EDE2734F2B089EA500A05B11 = {
@@ -502,20 +379,14 @@
 		EDE2735A2B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				ED3A3E492B08BE7100397452 /* Info.plist */,
+				ED0A741A2B0A81A700EE9338 /* PayPayCorp.MobileCodingChallenge.swift */,
 				ED3A3E472B08BDCF00397452 /* LaunchScreen.storyboard */,
-				ED3A3D5E2B08A32E00397452 /* AppDelegate.swift */,
+				ED89621B2B0B83F9003938DE /* AppUtils */,
 				ED3A3D572B08A23800397452 /* SupportingClasses */,
-				ED3A3D602B08A36500397452 /* BaseView */,
-				ED3A3E3F2B08AB1100397452 /* Home */,
-				ED3A3D642B08A38200397452 /* SideMenu */,
 				ED3A3D782B08A46C00397452 /* Currency Converter */,
-				ED3A3D8F2B08A4AA00397452 /* About Architecture */,
-				ED3A3CFD2B08A15300397452 /* AppUtils */,
 				ED3A3D222B08A21200397452 /* Fonts */,
 				ED3A3D722B08A3AC00397452 /* Localization.strings */,
 				ED3A3D742B08A3E400397452 /* Constants.swift */,
-				EDE2735D2B089EA500A05B11 /* ContentView.swift */,
 				EDE2735F2B089EA800A05B11 /* Assets.xcassets */,
 				EDE273622B089EA800A05B11 /* Preview Content */,
 			);
@@ -656,20 +527,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3A3D712B08A38200397452 /* SideMenu.storyboard in Resources */,
 				ED3A3D452B08A21200397452 /* SFProText-Bold.otf in Resources */,
-				ED3A3D6D2B08A38200397452 /* HeaderSideMenuTableViewCell.xib in Resources */,
-				ED3A3E432B08AB1100397452 /* HomeViewController.xib in Resources */,
 				ED3A3D552B08A21200397452 /* Cairo-Bold.ttf in Resources */,
 				EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */,
-				ED3A3D8C2B08A46D00397452 /* CurrencyTableViewCell.xib in Resources */,
-				ED3A3D932B08A4AA00397452 /* AboutArchitectureViewController.xib in Resources */,
 				ED3A3D4E2B08A21200397452 /* SFProDisplay-Regular.otf in Resources */,
 				ED3A3E482B08BDCF00397452 /* LaunchScreen.storyboard in Resources */,
-				ED3A3D892B08A46D00397452 /* CurrencyConverterViewController.xib in Resources */,
 				ED3A3D3F2B08A21200397452 /* SFProText-Regular.otf in Resources */,
 				ED3A3D732B08A3AC00397452 /* Localization.strings in Resources */,
-				ED3A3D8D2B08A46D00397452 /* SecondCurrencyViewController.xib in Resources */,
 				ED3A3D422B08A21200397452 /* SFProText-Medium.otf in Resources */,
 				ED3A3D462B08A21200397452 /* SFProDisplay-Medium.otf in Resources */,
 				ED3A3D522B08A21200397452 /* Cairo-Regular.ttf in Resources */,
@@ -687,10 +551,8 @@
 				ED3A3D472B08A21200397452 /* SFProDisplay-Black.otf in Resources */,
 				ED3A3D542B08A21200397452 /* Cairo-Black.ttf in Resources */,
 				ED3A3D4D2B08A21200397452 /* SFProDisplay-Italic.otf in Resources */,
-				ED3A3D702B08A38200397452 /* SideMenuTableViewCell.xib in Resources */,
 				ED3A3D492B08A21200397452 /* SFProDisplay-Semibold.otf in Resources */,
 				ED3A3D562B08A21200397452 /* Monaco.ttf in Resources */,
-				ED3A3E4A2B08BE7100397452 /* Info.plist in Resources */,
 				EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */,
 				ED3A3D512B08A21200397452 /* Cairo-SemiBold.ttf in Resources */,
 			);
@@ -820,41 +682,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE2735E2B089EA500A05B11 /* ContentView.swift in Sources */,
+				ED8962392B0B83F9003938DE /* STSubmitLoading.swift in Sources */,
+				ED89623E2B0B83F9003938DE /* AppVersionCheck.swift in Sources */,
+				ED89623C2B0B83F9003938DE /* STLoadingGroup.swift in Sources */,
+				ED8962372B0B83F9003938DE /* STTriangleLoading.swift in Sources */,
+				ED8962362B0B83F9003938DE /* STWalkLoading.swift in Sources */,
 				ED3A3D5D2B08A23900397452 /* AccessLayer.swift in Sources */,
-				ED3A3D192B08A1E000397452 /* STArchLoading.swift in Sources */,
-				ED3A3D942B08A4AA00397452 /* AboutArchitectureViewController.swift in Sources */,
-				ED3A3D062B08A1C100397452 /* AppVersionCheck.swift in Sources */,
-				ED3A3D1D2B08A1E000397452 /* STSubmitLoading.swift in Sources */,
-				ED3A3D212B08A1E000397452 /* STLoadingable.swift in Sources */,
-				ED3A3D052B08A1C100397452 /* Observable+Ext.swift in Sources */,
-				ED3A3D1E2B08A1E000397452 /* STPacManLoading.swift in Sources */,
+				ED89622F2B0B83F9003938DE /* Reusable.swift in Sources */,
 				ED3A3D5C2B08A23900397452 /* NetworkHelper.swift in Sources */,
-				ED3A3D0A2B08A1C100397452 /* ErrorTracker.swift in Sources */,
-				ED3A3D6C2B08A38200397452 /* SideMenuTableViewCell.swift in Sources */,
+				ED8962312B0B83F9003938DE /* Observable+Ext.swift in Sources */,
 				ED3A3D752B08A3E400397452 /* Constants.swift in Sources */,
-				ED3A3D8E2B08A46D00397452 /* CurrencyConverterViewController.swift in Sources */,
-				ED3A3D202B08A1E000397452 /* STLoadingGroup.swift in Sources */,
-				ED3A3D182B08A1E000397452 /* STBouncyPreloaderLoading.swift in Sources */,
-				ED3A3D1A2B08A1E000397452 /* STWalkLoading.swift in Sources */,
-				ED3A3D8A2B08A46D00397452 /* SecondCurrencyViewController.swift in Sources */,
-				ED3A3D8B2B08A46D00397452 /* CurrencyTableViewCell.swift in Sources */,
-				ED3A3D092B08A1C100397452 /* UIView+Borders.swift in Sources */,
-				ED3A3D0B2B08A1C100397452 /* UIHelper.swift in Sources */,
+				ED0A741B2B0A81A700EE9338 /* PayPayCorp.MobileCodingChallenge.swift in Sources */,
+				ED8962382B0B83F9003938DE /* STGlassesLoading.swift in Sources */,
+				ED8962352B0B83F9003938DE /* STArchLoading.swift in Sources */,
 				ED3A3D872B08A46D00397452 /* CurrencyConverterManager.swift in Sources */,
-				ED3A3D6E2B08A38200397452 /* SideMenuViewController.swift in Sources */,
-				ED3A3E442B08AB1100397452 /* HomeViewController.swift in Sources */,
-				ED3A3D082B08A1C100397452 /* AppExtensions.swift in Sources */,
-				ED3A3D1C2B08A1E000397452 /* STGlassesLoading.swift in Sources */,
-				ED3A3D632B08A36500397452 /* AppBaseViewController.swift in Sources */,
-				ED3A3D1B2B08A1E000397452 /* STTriangleLoading.swift in Sources */,
-				ED3A3D1F2B08A1E000397452 /* STZhiHuLoading.swift in Sources */,
+				ED89623D2B0B83F9003938DE /* STLoadingable.swift in Sources */,
+				ED89623B2B0B83F9003938DE /* STZhiHuLoading.swift in Sources */,
+				ED8962332B0B83F9003938DE /* UIHelper.swift in Sources */,
+				ED8962302B0B83F9003938DE /* ErrorTracker.swift in Sources */,
+				ED89623A2B0B83F9003938DE /* STPacManLoading.swift in Sources */,
+				ED89621A2B0B7B18003938DE /* CurrencyView.swift in Sources */,
+				ED8962322B0B83F9003938DE /* UIView+Borders.swift in Sources */,
+				ED8962342B0B83F9003938DE /* STBouncyPreloaderLoading.swift in Sources */,
 				ED3A3D862B08A46D00397452 /* CurrencyConverterViewModel.swift in Sources */,
-				ED3A3D6F2B08A38200397452 /* HeaderSideMenuTableViewCell.swift in Sources */,
 				ED3A3D882B08A46D00397452 /* BaseModel.swift in Sources */,
 				ED3A3D5B2B08A23900397452 /* Utilities.swift in Sources */,
-				ED3A3D072B08A1C100397452 /* Reusable.swift in Sources */,
-				ED3A3D5F2B08A32F00397452 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,6 +778,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DONT_GENERATE_INFOPLIST_FILE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -947,12 +800,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = PayPayCorp.MobileCodingChallenge/Info.plist;
 				INFOPLIST_PREPROCESS = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -993,6 +847,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DONT_GENERATE_INFOPLIST_FILE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1008,11 +863,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = PayPayCorp.MobileCodingChallenge/Info.plist;
 				INFOPLIST_PREPROCESS = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -1023,23 +879,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PayPayCorp.MobileCodingChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PayPayCorp;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1067,23 +924,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PayPayCorp.MobileCodingChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = PayPayCorp;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1113,6 +971,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -1136,6 +995,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -1158,6 +1018,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -1180,6 +1041,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;

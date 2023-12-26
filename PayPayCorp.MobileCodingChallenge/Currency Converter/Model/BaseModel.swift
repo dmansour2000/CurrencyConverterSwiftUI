@@ -10,9 +10,9 @@ import Foundation
 
 struct BaseModel {
     
-    let success : Bool
+    let disclaimer : String
+    let license : String
     let timestamp : NSNumber
     let base : String
-    let date : String
     let rates : NSDictionary
 }

@@ -17,7 +17,7 @@ struct PayPayCorpApp: App {
     var body: some Scene{
         
         WindowGroup {
-            CurrencyView()
+            CurrencyView(model: Currency())
         }
     }
 }

@@ -61,6 +61,7 @@
 		ED89623C2B0B83F9003938DE /* STLoadingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622B2B0B83F9003938DE /* STLoadingGroup.swift */; };
 		ED89623D2B0B83F9003938DE /* STLoadingable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622C2B0B83F9003938DE /* STLoadingable.swift */; };
 		ED89623E2B0B83F9003938DE /* AppVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */; };
+		EDBF4E542B3AB10900E2976E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4E532B3AB10900E2976E /* Currency.swift */; };
 		EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2735F2B089EA800A05B11 /* Assets.xcassets */; };
 		EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE273632B089EA800A05B11 /* Preview Assets.xcassets */; };
 		EDE2736E2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2736D2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift */; };
@@ -146,6 +147,7 @@
 		ED89622B2B0B83F9003938DE /* STLoadingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingGroup.swift; sourceTree = "<group>"; };
 		ED89622C2B0B83F9003938DE /* STLoadingable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingable.swift; sourceTree = "<group>"; };
 		ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionCheck.swift; sourceTree = "<group>"; };
+		EDBF4E532B3AB10900E2976E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		EDE273582B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPayCorp.MobileCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE2735F2B089EA800A05B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE273632B089EA800A05B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 		ED3A3D782B08A46C00397452 /* Currency Converter */ = {
 			isa = PBXGroup;
 			children = (
+				EDBF4E532B3AB10900E2976E /* Currency.swift */,
 				ED8962192B0B7B18003938DE /* CurrencyView.swift */,
 				ED3A3D792B08A46C00397452 /* ViewModel */,
 				ED3A3D7B2B08A46C00397452 /* BackendManager */,
@@ -690,6 +693,7 @@
 				ED3A3D5D2B08A23900397452 /* AccessLayer.swift in Sources */,
 				ED89622F2B0B83F9003938DE /* Reusable.swift in Sources */,
 				ED3A3D5C2B08A23900397452 /* NetworkHelper.swift in Sources */,
+				EDBF4E542B3AB10900E2976E /* Currency.swift in Sources */,
 				ED8962312B0B83F9003938DE /* Observable+Ext.swift in Sources */,
 				ED3A3D752B08A3E400397452 /* Constants.swift in Sources */,
 				ED0A741B2B0A81A700EE9338 /* PayPayCorp.MobileCodingChallenge.swift in Sources */,

@@ -15,6 +15,16 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="launchimage" highlightedImage="launchimage" translatesAutoresizingMaskIntoConstraints="NO" id="IXg-hm-jml">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IXg-hm-jml" secondAttribute="height" multiplier="207:448" id="DA4-uR-mow"/>
+                                    <constraint firstAttribute="height" constant="896" id="mw5-AZ-Zua"/>
+                                    <constraint firstAttribute="width" constant="414" id="sEE-n3-hJu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -25,6 +35,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="launchimage" width="1242" height="2688"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -286,10 +286,10 @@
 			isa = PBXGroup;
 			children = (
 				EDBF4E532B3AB10900E2976E /* Currency.swift */,
-				ED8962192B0B7B18003938DE /* CurrencyView.swift */,
+				EDBF4E552B3B3E0600E2976E /* View */,
 				ED3A3D792B08A46C00397452 /* ViewModel */,
-				ED3A3D7B2B08A46C00397452 /* BackendManager */,
 				ED3A3D7D2B08A46C00397452 /* Model */,
+				ED3A3D7B2B08A46C00397452 /* BackendManager */,
 			);
 			path = "Currency Converter";
 			sourceTree = "<group>";
@@ -355,6 +355,14 @@
 				ED89622A2B0B83F9003938DE /* STZhiHuLoading.swift */,
 			);
 			path = Loading;
+			sourceTree = "<group>";
+		};
+		EDBF4E552B3B3E0600E2976E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8962192B0B7B18003938DE /* CurrencyView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		EDE2734F2B089EA500A05B11 = {

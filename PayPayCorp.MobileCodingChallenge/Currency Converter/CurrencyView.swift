@@ -6,32 +6,37 @@
 //
 
 import SwiftUI
+import Combine
 
 struct CurrencyView: View {
-    @State private var selection: String = " "
-    @State private var amount: String = "0.0"
+    @State private var amount: String = "0"
     @State private var rate: Double = 0.0
-    @State private var selectedCurrency: Int = 0
     @ObservedObject var model = Currency()
     
     var body: some View {
         
-        if (model.dict.count ?? 0>0){
+        if (model.dict.count > 0){
             VStack{
-            HStack {
-                Text("Enter Amount:")
-                TextField("Amount", text: $amount)
-                Text("Choose Base Rate Currency:")
-                Picker("Base Currency", selection: $selection) {
-                    ForEach(0 ..< (model.dict.count ?? 0)) {
-                        Text("\(model.dict.allKeys[$0] as! String)").tag(selectedCurrency)
+                HStack {
+                    Text("Enter Amount in USD:")
+                    TextField("Amount", text: $amount)
+                        .keyboardType(.numberPad)
+                        .onReceive(Just(amount), perform: { newValue in
+                            if (amount == "" || !UIHelper.isStringAnInt(stringNumber: amount)){
+                                UIHelper.showErrorMessage("Please enter a number without decimals")
+                            }}
+                        )
+                    
+                    Text("Choose Convert Rate Currency:")
+                    
+                    Picker(selection: $model.selectedCurrency, label: Text("Base Currency")) {
+                        ForEach(0 ..< (model.dict.count)) {
+                            Text("\(model.dict.allKeys[$0] as! String)").tag($0)
+                        }
+                         
                     }
-                }.pickerStyle(MenuPickerStyle())
-                    .onChange(of: selection, perform: {newValue in ForEach(0 ..< (model.dict.count ?? 0)) {newValue in
-                        Text("\(model.dict.allKeys[newValue] as! String)").tag(selectedCurrency)
-                        
-                    }})
-            }
+                }
+                
             HStack {
                     Button(action: {
                         rate = goToCalculate(amount: self.amount)
@@ -47,7 +52,7 @@ struct CurrencyView: View {
     func  goToCalculate(amount: String) -> Double{
         var rate = 1.0
         if ((model.dict.count)>0){
-            rate = (model.dict.allValues[selectedCurrency] as? Double)!
+            rate = (model.dict.allValues[model.selectedCurrency] as? Double)!
         }
         var answer: Double = 0.0
         if (amount != "" && UIHelper.isStringAnInt(stringNumber: amount)){

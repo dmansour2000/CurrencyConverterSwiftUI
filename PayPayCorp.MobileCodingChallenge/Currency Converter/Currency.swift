@@ -11,6 +11,8 @@ import RxCocoa
 import Reachability
 
 class Currency: ObservableObject {
+    @Published var selection = ""
+    @Published var selectedCurrency = 0
     @Published var viewModel = CurrencyConverterViewModel()
     @Published var dict: NSDictionary = [:]
     let disposeBag = DisposeBag()

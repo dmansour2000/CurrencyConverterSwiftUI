@@ -10,7 +10,6 @@ import Combine
 
 struct CurrencyView: View {
     @State private var amount: String = "0"
-    @State private var rate: Double = 0.0
     @State private var allrates: [Double] = [Double]()
     @ObservedObject var model = Currency()
     
@@ -23,8 +22,10 @@ struct CurrencyView: View {
                     TextField("Amount", text: $amount)
                         .keyboardType(.numberPad)
                         .onReceive(Just(amount), perform: { newValue in
-                            if (amount == "" && amount == "0" && ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
+                            if (amount == "" &&  ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
                                 UIHelper.showErrorMessage("Please enter a number")
+                            }else{
+                                allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
                             }}
                         )
                     
@@ -33,23 +34,27 @@ struct CurrencyView: View {
                     Picker(selection: $model.selectedCurrency, label: Text("Base Currency")) {
                         ForEach(0 ..< (model.dict.count)) {
                             Text("\(model.dict.allKeys[$0] as! String)").tag($0)
-                        }
+                        }.onChange(of: model.selectedCurrency, {
+                            if (amount == "" &&  ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
+                                UIHelper.showErrorMessage("Please enter a number")
+                            }else{
+                                allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
+                            }
+                        })
                         
                     }
                 }
                 
-                HStack {
+                /*  HStack {
                     Button(action: {
-                        if (amount == "" && amount == "0" && ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
-                            UIHelper.showErrorMessage("Please enter a number")
-                        }else{
-                            allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
-                            if (allrates.count>0){
-                                rate = allrates[0]
-                            }
-                        }
-                        
-                    } ) { Text("Calculate") }}
+                     if (amount == "" && ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
+                     UIHelper.showErrorMessage("Please enter a number")
+                     }else{
+                     allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
+                     }
+                     
+                     } ) { Text("Calculate") }
+                }*/
                     if (allrates.count>0){
                         let columns = [
                                 GridItem(.fixed(300))
@@ -87,7 +92,8 @@ struct CurrencyView: View {
                 if (amount != "" && (UIHelper.isStringAnInt(stringNumber: amount) || UIHelper.isStringADecimalNumber(stringNumber: amount))){
                     var newBase = Double(amount)!
                     answer = newBase * rate
-                    rateArray.append(answer)
+                    var rounded = round(answer * 100)
+                    rateArray.append(rounded/100)
             }
         }
         

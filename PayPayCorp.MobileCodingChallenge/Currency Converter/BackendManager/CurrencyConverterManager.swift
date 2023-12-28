@@ -39,7 +39,7 @@ class CurrencyConverterManager {
     
     func currencyConverter() -> Observable<BaseModel>{
         
-        let url = NSURL(string: Constants.API_BASE_URL )!
+        let url = NSURL(string: Constants.API_BASE_URL + Constants.LATEST + Constants.APP_ID)!
         let request = NSMutableURLRequest(url: url as URL)
         request.httpMethod = "GET"
         

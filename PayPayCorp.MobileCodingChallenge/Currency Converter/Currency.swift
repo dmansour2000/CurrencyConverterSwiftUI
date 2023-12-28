@@ -13,29 +13,50 @@ import Reachability
 class Currency: ObservableObject {
     @Published var selection = ""
     @Published var selectedCurrency = 0
-    @Published var viewModel = CurrencyConverterViewModel()
+    @Published var listofcurrenciesviewModel = ListofCurrenciesViewModel()
+    @Published var currencyConverterViewModel = CurrencyConverterViewModel()
     @Published var dict: NSDictionary = [:]
+    @Published var dictRates: NSDictionary = [:]
     let disposeBag = DisposeBag()
     var dialogFullScreenView: UIView?
     var dialogLoadingGroup: STLoadingGroup?
     
     init(){
         if isNetworkConnected(){
-           showProgressDialog()
-            callNetwork()} else{
+            showProgressDialog()
+            callNetwork()
+            getBaseRates()} else{
                 showNoNetworkConnectedMessage()
             }
     }
     
-    func callNetwork(){
-       
-        viewModel.currencyConverter()
+    func getBaseRates(){
+        
+        currencyConverterViewModel.currencyConverter()
             .observe(on: MainScheduler.instance)
             .subscribe(onNext: {
                 model in
                 
                 if (model.rates.count != 0){
-                    self.dict  = model.rates
+                    self.dictRates  = model.rates
+                }
+                
+                self.hideProgressDialog()
+                
+            })
+            .disposed(by: disposeBag)
+        
+    }
+    
+    func callNetwork(){
+       
+        listofcurrenciesviewModel.listOfCurrencies()
+            .observe(on: MainScheduler.instance)
+            .subscribe(onNext: {
+                model in
+                
+                if (model.result.count != 0){
+                    self.dict  = model.result
                 }
                 
                 self.hideProgressDialog()

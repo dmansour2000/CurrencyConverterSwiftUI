@@ -13,9 +13,6 @@ import RxCocoa
 struct CurrencyConverterViewModel {
     
 
-    
-    
-    
     func currencyConverter()-> Observable<BaseModel>  {
         return CurrencyConverterManager.sharedManager.currencyConverter()
     }

@@ -11,9 +11,14 @@ import UIKit
 public class Constants: NSObject {
     
     
-    static let API_BASE_URL = "https://openexchangerates.org/api/latest.json?app_id=d0e8532df4c748b4bd99e7b6793de6db"
-  
-
+    static let API_BASE_URL = "https://openexchangerates.org/api"
+    
+    static let APP_ID = "?app_id=d0686b9b71144c40a4a1c37d7ee2a151"
+    
+    static let LATEST = "/latest.json"
+    
+    static let CURRENCIES = "/currencies.json"
+    
     
     struct CustomNavBarTags {
         static let BiggerNavBar: Int = 8989

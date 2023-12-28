@@ -9,7 +9,6 @@ import Foundation
 
 
 struct BaseModel {
-    
     let disclaimer : String
     let license : String
     let timestamp : NSNumber

@@ -62,6 +62,9 @@
 		ED89623D2B0B83F9003938DE /* STLoadingable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622C2B0B83F9003938DE /* STLoadingable.swift */; };
 		ED89623E2B0B83F9003938DE /* AppVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */; };
 		EDBF4E542B3AB10900E2976E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4E532B3AB10900E2976E /* Currency.swift */; };
+		EDBF4E5F2B3C848600E2976E /* CurrenciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4E5E2B3C848600E2976E /* CurrenciesModel.swift */; };
+		EDBF4E612B3C853100E2976E /* ListOfCurrenciesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4E602B3C853100E2976E /* ListOfCurrenciesManager.swift */; };
+		EDBF4E632B3C86A900E2976E /* ListOfCurrenciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4E622B3C86A900E2976E /* ListOfCurrenciesViewModel.swift */; };
 		EDE273602B089EA800A05B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE2735F2B089EA800A05B11 /* Assets.xcassets */; };
 		EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE273632B089EA800A05B11 /* Preview Assets.xcassets */; };
 		EDE2736E2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2736D2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift */; };
@@ -148,6 +151,9 @@
 		ED89622C2B0B83F9003938DE /* STLoadingable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingable.swift; sourceTree = "<group>"; };
 		ED89622D2B0B83F9003938DE /* AppVersionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionCheck.swift; sourceTree = "<group>"; };
 		EDBF4E532B3AB10900E2976E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		EDBF4E5E2B3C848600E2976E /* CurrenciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesModel.swift; sourceTree = "<group>"; };
+		EDBF4E602B3C853100E2976E /* ListOfCurrenciesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCurrenciesManager.swift; sourceTree = "<group>"; };
+		EDBF4E622B3C86A900E2976E /* ListOfCurrenciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCurrenciesViewModel.swift; sourceTree = "<group>"; };
 		EDE273582B089EA500A05B11 /* PayPayCorp.MobileCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPayCorp.MobileCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE2735F2B089EA800A05B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE273632B089EA800A05B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -298,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3A3D7A2B08A46C00397452 /* CurrencyConverterViewModel.swift */,
+				EDBF4E622B3C86A900E2976E /* ListOfCurrenciesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -306,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3A3D7C2B08A46C00397452 /* CurrencyConverterManager.swift */,
+				EDBF4E602B3C853100E2976E /* ListOfCurrenciesManager.swift */,
 			);
 			path = BackendManager;
 			sourceTree = "<group>";
@@ -314,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3A3D7E2B08A46C00397452 /* BaseModel.swift */,
+				EDBF4E5E2B3C848600E2976E /* CurrenciesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -696,10 +705,12 @@
 				ED8962392B0B83F9003938DE /* STSubmitLoading.swift in Sources */,
 				ED89623E2B0B83F9003938DE /* AppVersionCheck.swift in Sources */,
 				ED89623C2B0B83F9003938DE /* STLoadingGroup.swift in Sources */,
+				EDBF4E612B3C853100E2976E /* ListOfCurrenciesManager.swift in Sources */,
 				ED8962372B0B83F9003938DE /* STTriangleLoading.swift in Sources */,
 				ED8962362B0B83F9003938DE /* STWalkLoading.swift in Sources */,
 				ED3A3D5D2B08A23900397452 /* AccessLayer.swift in Sources */,
 				ED89622F2B0B83F9003938DE /* Reusable.swift in Sources */,
+				EDBF4E632B3C86A900E2976E /* ListOfCurrenciesViewModel.swift in Sources */,
 				ED3A3D5C2B08A23900397452 /* NetworkHelper.swift in Sources */,
 				EDBF4E542B3AB10900E2976E /* Currency.swift in Sources */,
 				ED8962312B0B83F9003938DE /* Observable+Ext.swift in Sources */,
@@ -716,6 +727,7 @@
 				ED89621A2B0B7B18003938DE /* CurrencyView.swift in Sources */,
 				ED8962322B0B83F9003938DE /* UIView+Borders.swift in Sources */,
 				ED8962342B0B83F9003938DE /* STBouncyPreloaderLoading.swift in Sources */,
+				EDBF4E5F2B3C848600E2976E /* CurrenciesModel.swift in Sources */,
 				ED3A3D862B08A46D00397452 /* CurrencyConverterViewModel.swift in Sources */,
 				ED3A3D882B08A46D00397452 /* BaseModel.swift in Sources */,
 				ED3A3D5B2B08A23900397452 /* Utilities.swift in Sources */,

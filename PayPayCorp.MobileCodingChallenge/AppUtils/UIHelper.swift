@@ -59,6 +59,16 @@ class UIHelper: NSObject {
         return false
     }
     
+    
+    public static func isStringADecimalNumber(stringNumber: String) -> Bool {
+
+        if let _ = Double(stringNumber) {
+            return true
+        }
+        return false
+    }
+    
+    
     public static func stringToUTF16String (stringaDaConvertire stringa: String) -> String {
         
         let encodedData = stringa.data(using: String.Encoding.utf16)!

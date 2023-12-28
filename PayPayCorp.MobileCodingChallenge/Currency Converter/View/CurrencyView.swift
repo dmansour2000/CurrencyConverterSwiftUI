@@ -52,8 +52,7 @@ struct CurrencyView: View {
                     } ) { Text("Calculate") }}
                     if (allrates.count>0){
                         let columns = [
-                                GridItem(.fixed(100)),
-                                GridItem(.fixed(100))
+                                GridItem(.fixed(300))
                             ]
                         ScrollView {
                             LazyVGrid(columns: columns, spacing: 20) {

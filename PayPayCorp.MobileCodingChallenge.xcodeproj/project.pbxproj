@@ -291,10 +291,10 @@
 		ED3A3D782B08A46C00397452 /* Currency Converter */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF4E532B3AB10900E2976E /* Currency.swift */,
+				EDF954A52B420457000CC125 /* Presenter */,
 				EDBF4E552B3B3E0600E2976E /* View */,
 				ED3A3D792B08A46C00397452 /* ViewModel */,
-				ED3A3D7D2B08A46C00397452 /* Model */,
+				ED3A3D7D2B08A46C00397452 /* Entity */,
 				ED3A3D7B2B08A46C00397452 /* BackendManager */,
 			);
 			path = "Currency Converter";
@@ -318,13 +318,13 @@
 			path = BackendManager;
 			sourceTree = "<group>";
 		};
-		ED3A3D7D2B08A46C00397452 /* Model */ = {
+		ED3A3D7D2B08A46C00397452 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				ED3A3D7E2B08A46C00397452 /* BaseModel.swift */,
 				EDBF4E5E2B3C848600E2976E /* CurrenciesModel.swift */,
 			);
-			path = Model;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		ED89621B2B0B83F9003938DE /* AppUtils */ = {
@@ -436,6 +436,14 @@
 				EDE273792B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift */,
 			);
 			path = PayPayCorp.MobileCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		EDF954A52B420457000CC125 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EDBF4E532B3AB10900E2976E /* Currency.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

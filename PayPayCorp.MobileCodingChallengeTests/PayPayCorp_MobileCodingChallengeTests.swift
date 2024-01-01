@@ -5,31 +5,70 @@
 //  Created by Dina  on 18/11/2023.
 //
 
+import Foundation
 import XCTest
 
+@testable import PayPayCorp_MobileCodingChallenge
+
 final class PayPayCorp_MobileCodingChallengeTests: XCTestCase {
+        
+    
+     func testCurrencygetBaseRates() {
+         let baseratesrequestManagerMock = CurrencyGetBASERATESMock()
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        XCTAssertTrue( baseratesrequestManagerMock.isSuccess)
+
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testCurrencycallNetwork() {
+        let networkcallrequestManagerMock = CurrencyNetworkCallMock()
+        
+        XCTAssertTrue( networkcallrequestManagerMock.isSuccess)
     }
+}
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+class CurrencyNetworkCallMock{
+    var isSuccess = true
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
+    func makeNetworkRequest<T>(urlRequestObject: URLRequest, completion: @escaping (Result<T, Error>) -> Void) where T : Decodable {
+        if isSuccess {
+            let successResultDto = returnedCurrenciesArray() as! T
+            completion(.success(successResultDto))
+        } else {
+            let errorString = "Cannot create request object here"
+            let error = NSError(domain: Constants.API_BASE_URL + Constants.LATEST + Constants.APP_ID, code: 401, userInfo: [NSLocalizedDescriptionKey: errorString])
+
+            completion(.failure(error))
         }
     }
 
+    func returnedCurrenciesArray() -> [BaseModel] {
+        let currency1 = BaseModel(disclaimer: "", license: "", timestamp: NSNumber(), base: "", rates: [:])
+        let currency2 = BaseModel(disclaimer: "", license: "", timestamp: NSNumber(), base: "", rates: [:])
+        let currency3 = BaseModel(disclaimer: "", license: "", timestamp: NSNumber(), base: "", rates: [:])
+        return [currency1, currency2, currency3]
+    }
+}
+
+class CurrencyGetBASERATESMock{
+    var isSuccess = true
+
+    func makeNetworkRequest<T>(urlRequestObject: URLRequest, completion: @escaping (Result<T, Error>) -> Void) where T : Decodable {
+        if isSuccess {
+            let successResultDto = returnedCurrenciesArray() as! T
+            completion(.success(successResultDto))
+        } else {
+            let errorString = "Cannot create request object here"
+            let error = NSError(domain:  Constants.API_BASE_URL + Constants.CURRENCIES + Constants.APP_ID, code: 401, userInfo: [NSLocalizedDescriptionKey: errorString])
+
+            completion(.failure(error))
+        }
+    }
+
+    func returnedCurrenciesArray() -> [CurrenciesModel] {
+        let currency1 = CurrenciesModel(result: [:])
+        let currency2 = CurrenciesModel(result: [:])
+        let currency3 = CurrenciesModel(result: [:])
+        return [currency1, currency2, currency3]
+    }
 }

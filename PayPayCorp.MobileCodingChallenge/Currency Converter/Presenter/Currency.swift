@@ -104,3 +104,4 @@ class Currency: ObservableObject {
     }
     
 }
+

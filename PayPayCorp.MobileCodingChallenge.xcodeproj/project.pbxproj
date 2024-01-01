@@ -69,7 +69,6 @@
 		EDE273642B089EA800A05B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE273632B089EA800A05B11 /* Preview Assets.xcassets */; };
 		EDE2736E2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE2736D2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift */; };
 		EDE273782B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE273772B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITests.swift */; };
-		EDE2737A2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE273792B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,7 +160,6 @@
 		EDE2736D2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCorp_MobileCodingChallengeTests.swift; sourceTree = "<group>"; };
 		EDE273732B089EA800A05B11 /* PayPayCorp.MobileCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPayCorp.MobileCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE273772B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCorp_MobileCodingChallengeUITests.swift; sourceTree = "<group>"; };
-		EDE273792B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,7 +431,6 @@
 			isa = PBXGroup;
 			children = (
 				EDE273772B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITests.swift */,
-				EDE273792B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift */,
 			);
 			path = PayPayCorp.MobileCodingChallengeUITests;
 			sourceTree = "<group>";
@@ -754,7 +751,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE2737A2B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITestsLaunchTests.swift in Sources */,
 				EDE273782B089EA800A05B11 /* PayPayCorp_MobileCodingChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,26 +9,41 @@ import XCTest
 import Foundation
 
 final class PayPayCorp_MobileCodingChallengeUITests: XCTestCase {
-
-    func testCurrencyView() {
-        // 1
+    
+    override class var runsForEachTargetApplicationUIConfiguration: Bool {
+        true
+    }
+    
+    override func setUpWithError() throws {
+        continueAfterFailure = false
+    }
+    
+    override func setUp() {
+        super.setUp()
+        
         let app = XCUIApplication()
-       // setupSnapshot(app)
         app.launch()
-        // 2
+    }
+    
+    
+    func testLaunch() throws {
+        let app = XCUIApplication()
+        XCUIDevice.shared.orientation = .portrait
+        
         let amountTextField = app.textFields["Amount"]
         amountTextField.tap()
         amountTextField.typeText("10")
-        // 3
-        let currencyPicker = app.pickers.firstMatch
-        //currencyPicker.waitForExistence(timeout: 15)
-        //currencyPicker.tap()
-      
-        // 5
+       
+        let currencyPicker = app.pickerWheels.firstMatch
+        if currencyPicker.waitForExistence(timeout: 30){
+            currencyPicker.swipeDown()
+        }
+        
         let grid = app.grids.firstMatch
-        //grid.waitForExistence(timeout: 15)
-        //grid.tap()
+        if grid.waitForExistence(timeout: 30){
+            grid.swipeDown()
+        }
     }
-
-   
+    
+    
 }

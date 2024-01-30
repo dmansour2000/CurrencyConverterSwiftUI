@@ -39,7 +39,7 @@ target 'PayPayCorp.MobileCodingChallenge' do
 
   target 'PayPayCorp.MobileCodingChallengeTests' do
     inherit! :search_paths
-    # Pods for testing
+   
   end
 
   target 'PayPayCorp.MobileCodingChallengeUITests' do

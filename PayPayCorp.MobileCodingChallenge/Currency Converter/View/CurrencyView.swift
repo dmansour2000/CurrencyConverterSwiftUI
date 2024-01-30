@@ -45,16 +45,6 @@ struct CurrencyView: View {
                     }
                 }
                 
-                /*  HStack {
-                    Button(action: {
-                     if (amount == "" && ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
-                     UIHelper.showErrorMessage("Please enter a number")
-                     }else{
-                     allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
-                     }
-                     
-                     } ) { Text("Calculate") }
-                }*/
                     if (allrates.count>0){
                         let columns = [
                                 GridItem(.fixed(300))

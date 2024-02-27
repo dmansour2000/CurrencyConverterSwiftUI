@@ -10,10 +10,10 @@ import RxSwift
 import RxCocoa
 
 
-struct CurrencyConverterViewModel {
+struct CurrencyConverterReducer {
     
 
-    func currencyConverter()-> Observable<BaseModel>  {
+    func currencyConverter()-> Observable<BaseStore>  {
         return CurrencyConverterManager.sharedManager.currencyConverter()
     }
     

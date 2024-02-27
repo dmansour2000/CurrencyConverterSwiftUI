@@ -9,10 +9,10 @@ import RxSwift
 import RxCocoa
 
 
-struct ListofCurrenciesViewModel {
+struct ListofCurrenciesReducer {
     
 
-    func listOfCurrencies()-> Observable<CurrenciesModel>  {
+    func listOfCurrencies()-> Observable<CurrenciesStore>  {
         return ListofCurrenciesManager.sharedManager.listOfCurrencies()
     }
     

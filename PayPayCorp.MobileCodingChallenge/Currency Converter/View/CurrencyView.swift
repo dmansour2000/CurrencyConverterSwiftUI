@@ -11,11 +11,11 @@ import Combine
 struct CurrencyView: View {
     @State private var amount: String = "0"
     @State private var allrates: [Double] = [Double]()
-    @ObservedObject var model = Currency()
+    @ObservedObject var currency = CurrencyAction()
     
     var body: some View {
         
-        if (model.dict.count > 0){
+        if (currency.dict.count > 0){
             VStack{
                 HStack {
                     Text("Enter Amount:")
@@ -25,20 +25,20 @@ struct CurrencyView: View {
                             if (amount == "" &&  ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
                                 UIHelper.showErrorMessage("Please enter a number")
                             }else{
-                                allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
+                                allrates = goToCalculate(amount: amount, frombaseCurrency: currency.dict.allKeys[currency.selectedCurrency] as! String)
                             }}
                         )
                     
                     Text("Choose Convert Base Rate Currency:")
                     
-                    Picker(selection: $model.selectedCurrency, label: Text("Base Currency")) {
-                        ForEach(0 ..< (model.dict.count)) {
-                            Text("\(model.dict.allKeys[$0] as! String)").tag($0)
-                        }.onChange(of: model.selectedCurrency, {
+                    Picker(selection: $currency.selectedCurrency, label: Text("Base Currency")) {
+                        ForEach(0 ..< (currency.dict.count)) {
+                            Text("\(currency.dict.allKeys[$0] as! String)").tag($0)
+                        }.onChange(of: currency.selectedCurrency, {
                             if (amount == "" &&  ( !UIHelper.isStringAnInt(stringNumber: amount) || !UIHelper.isStringADecimalNumber(stringNumber: amount))){
                                 UIHelper.showErrorMessage("Please enter a number")
                             }else{
-                                allrates = goToCalculate(amount: amount, frombaseCurrency: model.dict.allKeys[model.selectedCurrency] as! String)
+                                allrates = goToCalculate(amount: amount, frombaseCurrency: currency.dict.allKeys[currency.selectedCurrency] as! String)
                             }
                         })
                         
@@ -52,9 +52,9 @@ struct CurrencyView: View {
                         ScrollView {
                             LazyVGrid(columns: columns, spacing: 20) {
                             VStack{
-                                ForEach(0 ..< (model.dictRates.count)) {
+                                ForEach(0 ..< (currency.dictRates.count)) {
                                 
-                                        Text("\(model.dictRates.allKeys[$0] as! String)")
+                                        Text("\(currency.dictRates.allKeys[$0] as! String)")
                                         Text("\(String(allrates[$0]))")
                                     }
                                 }
@@ -73,11 +73,11 @@ struct CurrencyView: View {
         var rate = 1.0
         var rateArray : [Double] = [Double]()
         
-        if (model.dictRates.count>0){
+        if (currency.dictRates.count>0){
             
             
-            for i in 0 ..< model.dictRates.count{
-                rate = (model.dictRates.allValues[i] as? Double)!
+            for i in 0 ..< currency.dictRates.count{
+                rate = (currency.dictRates.allValues[i] as? Double)!
                 var answer: Double = 0.0
                 if (amount != "" && (UIHelper.isStringAnInt(stringNumber: amount) || UIHelper.isStringADecimalNumber(stringNumber: amount))){
                     var newBase = Double(amount)!
@@ -98,5 +98,5 @@ struct CurrencyView: View {
 }
 
 #Preview {
-    CurrencyView(model: Currency())
+    CurrencyView()
 }

@@ -20,7 +20,7 @@ class ListofCurrenciesManager {
     
     fileprivate init() {}
     
-    func listOfCurrencies() -> Observable<CurrenciesModel>{
+    func listOfCurrencies() -> Observable<CurrenciesStore>{
         
         let url = NSURL(string: Constants.API_BASE_URL + Constants.CURRENCIES + Constants.APP_ID )!
         let request = NSMutableURLRequest(url: url as URL)
@@ -36,11 +36,11 @@ class ListofCurrenciesManager {
                     
                     let result = $0 as! NSDictionary
                    
-                    let model = CurrenciesModel.init(result: result)
+                    let model = CurrenciesStore.init(result: result)
                    
                     return model
                 }else{
-                    let model = CurrenciesModel.init(result: [:])
+                    let model = CurrenciesStore.init(result: [:])
                     
                     return model
                 }

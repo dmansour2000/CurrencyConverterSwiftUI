@@ -8,7 +8,7 @@ import Foundation
 
 
 
-struct BaseModel {
+struct BaseStore {
     let disclaimer : String
     let license : String
     let timestamp : NSNumber

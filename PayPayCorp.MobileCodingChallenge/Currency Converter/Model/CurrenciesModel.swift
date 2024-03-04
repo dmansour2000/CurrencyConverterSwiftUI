@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CurrenciesStore {
+struct CurrenciesModel {
 
     let result: NSDictionary
     

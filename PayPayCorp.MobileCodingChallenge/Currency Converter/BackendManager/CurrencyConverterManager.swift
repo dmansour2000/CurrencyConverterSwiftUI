@@ -37,7 +37,7 @@ class CurrencyConverterManager {
     
     fileprivate init() {}
     
-    func currencyConverter() -> Observable<BaseStore>{
+    func currencyConverter() -> Observable<BaseModel>{
         
         let url = NSURL(string: Constants.API_BASE_URL + Constants.LATEST + Constants.APP_ID)!
         let request = NSMutableURLRequest(url: url as URL)
@@ -58,11 +58,11 @@ class CurrencyConverterManager {
                     let timestamp = model["timestamp"] as! NSNumber
                     let rates = model["rates"] as! NSDictionary
                    
-                    let model = BaseStore.init(disclaimer: disclaimer, license: license, timestamp: timestamp, base: base, rates: rates)
+                    let model = BaseModel.init(disclaimer: disclaimer, license: license, timestamp: timestamp, base: base, rates: rates)
                    
                     return model
                 }else{
-                    let model = BaseStore.init(disclaimer: "", license: "", timestamp: NSNumber(), base: "", rates: [:])
+                    let model = BaseModel.init(disclaimer: "", license: "", timestamp: NSNumber(), base: "", rates: [:])
                     
                     return model
                 }

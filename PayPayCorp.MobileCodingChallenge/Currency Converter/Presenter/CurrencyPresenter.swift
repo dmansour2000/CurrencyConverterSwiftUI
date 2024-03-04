@@ -10,11 +10,11 @@ import RxSwift
 import RxCocoa
 import Reachability
 
-class CurrencyAction: ObservableObject {
+class CurrencyPresenter: ObservableObject {
     @Published var selection = ""
     @Published var selectedCurrency = 0
-    @Published var listofcurrenciesviewModel = ListofCurrenciesReducer()
-    @Published var currencyConverterViewModel = CurrencyConverterReducer()
+    @Published var listofcurrenciesviewModel = ListOfCurrenciesViewModel()
+    @Published var currencyConverterViewModel = CurrencyConverterViewModel()
     @Published var dict: NSDictionary = [:]
     @Published var dictRates: NSDictionary = [:]
     let disposeBag = DisposeBag()
